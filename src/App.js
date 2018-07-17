@@ -11,7 +11,7 @@ class Aggregate extends Component{
   render(){
     return(
     <div className = 'aggregate' style = {{...defaultStyle, width:'40%', display:'inline-block'}}>
-<h2 style = {{'color':'white'}}>Number and  Text</h2>
+<h2 style = {{'color':'red'}}>Number and  Text</h2>
 </div>
 )
   }
@@ -44,8 +44,7 @@ class App extends Component {
     let title = 'Splotify';
     return (
       <div className="App">
-<h1 style = {{  "color": "green",
-  "size": "54px"}}>{title}</h1>
+<h1 style = {{  "color": "green", "size": "54px"}}>{title}</h1>
 <Aggregate/>
 <Aggregate/>
 <Filter/>
