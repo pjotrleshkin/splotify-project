@@ -5,7 +5,6 @@ import './App.css';
 
 let defaultStyle = {
   color: 'white',
-
 }
 
 class Aggregate extends Component{
@@ -45,7 +44,8 @@ class App extends Component {
     let title = 'Splotify';
     return (
       <div className="App">
-<h1>{title}</h1>
+<h1 style = {{  "color": "green",
+  "size": "54px"}}>{title}</h1>
 <Aggregate/>
 <Aggregate/>
 <Filter/>
